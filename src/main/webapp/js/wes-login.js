@@ -29,7 +29,7 @@ function loginPost() {
 		contentType: 'json',
 		success : function(response) {
 			document.getElementById('pass-key-inp').value = response[str1.length][str2.length];
-			cache.setItem("distance", response);
+			cache.setItem("distance", response[str1.length][str2.length]);
 			var opt1 = str1.split('');
 			var opt2 = str2.split('');
 			var rows = response;
