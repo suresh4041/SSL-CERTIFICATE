@@ -1,0 +1,396 @@
+/**
+ * CSS file for login and reset input pages
+ *
+ * @author SHABBARI SRINIVASAN
+ * @since NOV-11, 2019
+ */
+@CHARSET "UTF-8";
+
+
+.container {
+	position: relative;
+	left: 70px;
+	top: 0px;
+	border-radius: 20px;
+	width: 400px;
+/* 	margin: 0 auto; */
+	height: 480px;
+	background-color: #fff;
+}
+
+
+#tbl{
+	position :absolute;
+	left:650px;
+	top:165px;
+}
+.tbls{
+	width:30px;
+}
+#tenant-id-lbl, #reset-tenant-id-lbl {
+	position: absolute;
+	left: 17px;
+	top: -9px;
+	width: 90px;
+	height: 17px;
+	text-align: center;
+	background-color: #fff;
+	/* 	color: var(--bg-color); */
+	color: rgb(53, 126, 236);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#login-id-lbl, #reset-login-id-lbl {
+	position: absolute;
+	left: 16px;
+	top: -9px;
+	width: 112px;
+	height: 17px;
+	text-align: center;
+	background-color: #fff;
+	/* 	color: var(--bg-color); */
+	color: rgb(53, 126, 236);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#pass-key-lbl {
+	position: absolute;
+	left: 16px;
+	top: -9px;
+	width: 90px;
+	height: 17px;
+	text-align: center;
+	background-color: #fff;
+	/* 	color: var(--bg-color); */
+	color: rgb(53, 126, 236);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.div-change-link {
+	cursor: pointer;
+	/* 	color: var(--bg-color); */
+	color: rgb(53, 126, 236);
+	font-weight: bold;
+}
+
+.div-change-link:hover {
+	text-decoration: underline;
+}
+
+#tenant-main-div {
+	position: absolute;
+	bottom: 274px;
+	right: 34px;
+	width: 328px;
+	height: 38px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #7f7f7f;
+}
+
+#login-main-div {
+	position: absolute;
+	bottom: 170px;
+	right: 34px;
+	width: 328px;
+	height: 38px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #7f7f7f;
+}
+
+#passkey-main-div {
+	position: absolute;
+	right: 34px;
+	width: 328px;
+	bottom: 88px;
+	height: 38px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #7f7f7f;
+}
+
+#forgot-psw-main-div {
+	position: absolute;
+	bottom: 122px;
+	right: 46px;
+}
+
+#login-btn-div {
+	position: absolute;
+	bottom: 32px;
+	right: 137px;
+	/* 	background-color: var(--bg-color); */
+	background-color: rgb(53, 126, 236);
+	border-radius: 16px;
+}
+
+#wes-login-btn {
+	position: relative;
+	top: 0px;
+	left: 1px;
+	width: 130px;
+	height: 34px;
+	font-size: 14px;
+	border-radius: 16px;
+	/* 	color: var(--txt-color); */
+	color: #fff;
+	font-weight: bold;
+	text-transform: none !important;
+}
+
+.login-input:focus {
+	outline: none;
+}
+
+.login-input {
+	height: 35px;
+	border-radius: 3px;
+	padding: 8px 16px 0px 16px !important;
+	border-bottom: none !important;
+}
+
+#title-lbl-id {
+	font-size: 20px;
+	width: 220px !important;
+	height: 30px;
+	color: #999;
+	position: absolute;
+	top: 70px;
+	left: 42px;
+	font-weight: bold;
+}
+
+#header-label-div {
+	position: absolute;
+	top: 95px;
+	left: 95px;
+	height: 82px;
+	width: 215px;
+}
+
+.animate-zoom {
+	animation: animatezoom 0.8s;
+}
+
+.tenant-div:focus {
+	background-image: none;
+	border: none;
+	outline: none;
+	border-color: #00BCD4 !important;
+}
+
+@-webkit-keyframes animatezoom {
+	from {
+		transform: rotateY(180deg);
+	}
+
+	to {
+		transform: rotateY(0deg);
+	}
+}
+
+/* forgot password style */
+.innercont {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	border-radius: 20px;
+	width: 400px;
+/* 	margin: 0 auto; */
+	height: 635px;
+	background-color: #fff;
+}
+
+.reset-btn-div {
+	position: absolute;
+	right: 142px;
+	bottom: 120px;
+	/* 	background-color: var(--bg-color); */
+	background-color: rgb(53, 126, 236);
+	border-radius: 16px;
+}
+
+#wes-reset-pass-btn {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 115px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 16px;
+	/* 	color: var(--txt-color); */
+	color: #fff;
+	font-weight: bold;
+	text-transform: none !important;
+}
+
+.btnDisable {
+    background-color: #dedede !important;
+    color: #999 !important;
+    cursor: not-allowed !important;
+}
+
+#login-link-lbl {
+	position: absolute;
+	bottom: 65px;
+	right: 148px;
+}
+
+#forget-title-lbl-id {
+	font-size: 20px;
+	font-weight: bold;
+	width: 180px;
+	height: 35px;
+	color: #999;
+	position: absolute;
+	top: 220px;
+	left: 41px;
+}
+
+.img-container-div {
+	position: absolute;
+	top: 30px;
+	left: 105px;
+}
+
+#tenant-reset-div {
+	position: absolute;
+	bottom: 313px;
+	right: 34px;
+	width: 328px;
+	height: 38px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #7f7f7f;
+}
+
+#login-reset-div {
+	position: absolute;
+	bottom: 236px;
+	right: 34px;
+	width: 328px;
+	height: 38px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #7f7f7f;
+}
+
+.align-center {
+	align-items: left;
+	justify-content: center;
+	text-align: center !important;
+	
+}
+
+.bg-body {
+	background-size: cover;
+	height: 100% !important;
+	width: 100% !important;
+}
+
+#error-info-div {
+	position: absolute;
+	bottom: 79px;
+	left: 40px;
+	height: 39px;
+	width: 83%;
+	text-align: left;
+}
+
+#reset-status-div {
+	position: absolute;
+	bottom: 180px;
+	left: 35px;
+}
+
+#login-error-lbl {
+	color: red;
+	font-family: sans-serif;
+}
+
+#reset-error-lbl {
+	color: red;
+	font-family: sans-serif;
+}
+
+#reset-success-lbl {
+	color: green;
+	font-family: sans-serif;
+	width: 335px;
+}
+
+#select-id {
+	width: 101px;
+	height: 25px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #7f7f7f;
+	cursor: pointer;
+}
+
+#select-main-div {
+	position: absolute;
+	top: 50px;
+	right: 60px;
+	z-index: 1000;
+}
+
+#select-id:hover {
+	background-color: #f5f5f5;
+}
+
+#select-id:focus {
+	/* 	border-color: var(--bg-color); */
+	border-color: rgb(53, 126, 236);
+}
+
+input:required:invalid {
+    outline: none;
+}
+
+#forgot-psw-link-lbl:focus, #login-link-lbl:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+/* cookie-off DIV CSS */
+#cookie-disable-div {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: #00000099;
+    border-radius: 5px;
+}
+
+#cookie-require-div {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background-color: white;
+    padding: 20px;
+    width: 348px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#require-lbl {
+	margin-top : 20px;
+	margin-left: 5px;
+/* 	color: #fff; */
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
